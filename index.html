@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="anis">
+<div class="navigation">
+    <div class="userBx">
+        <div class="imgBx">
+            <img src="/img/user.jpg" alt="user">
+        </div>
+        <p class="username">user name</p>
+    </div>
+    <div class="menuToggle"></div>
+    <ul class="menu">
+        <li><a href=""><ion-icon name="person"></ion-icon> MY DASHBOARD</a></li>
+        <li><a href=""><ion-icon name="help"></ion-icon> HELP & SSUPPORT</a></li>
+        <li><a href=""><ion-icon name="log-out"></ion-icon> LOGOUT</a></li>
+    </ul>
+</div>
+</div>
+</body>
+<script>
+    let menuToggle = document.querySelector('.menuToggle')
+    let navigation = document.querySelector('.navigation')
+    menuToggle.onclick = ()=>{
+        navigation.classList.toggle('active')
+    }
+</script>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+</html>
