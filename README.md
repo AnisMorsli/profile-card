@@ -1,4 +1,4 @@
-# profile-card 
-# working 100% 
-# vanila js made 
-# using html/css/js
+# Profile-card 
+# Working 100% 
+# Vanila JS 
+# Made using html/css/js
